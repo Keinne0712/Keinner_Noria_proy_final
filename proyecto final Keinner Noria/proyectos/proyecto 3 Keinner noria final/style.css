@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(161, 169, 244);
+    justify-content: center;
+    padding-left: 25%;
+    text-align: center;
+    background-image: url(lake-7351566.jpg);
+    background-repeat: no repeat;
+    background-size: 100%;
+    
+}
+.opciones{
+    text-align:center;
+    width:fit-content;
+    margin: auto;
+
+    
+}
+.encuesta{
+    border-style:hidden;
+    border-color: rgb(23, 210, 82);
+    background-color: white;
+    border-radius: 40px;
+    width: 700px;;
+    
+    
+}
+.imagen{
+    width: 40%;
+}
+.imagenPedro{
+    width: 650px;
+}
+.imagenAmistoso{
+    width: 650px;
+}
+.imagenChill{
+    width: 650px;
+}
+.imagenflow{
+    width: 460px;
+}

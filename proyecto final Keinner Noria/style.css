@@ -12,7 +12,7 @@ html {height: 100%;}body {
 *::after{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 HTML{
@@ -20,11 +20,44 @@ HTML{
 }
 
 h1{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 900;
-    text-align: center;
-    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    color:#81A7EE;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    color: #D59EFA;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+p{
+    font-size: 30px;
     color: white;
+    
+}
+.yo{
+    color: #e4c2e4;
+    display: flex;
+    margin: 35px;
+}
+
+.habilidades{
+    font-family: 'Roboto Slab', serif;
+    color: #b3aac7;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.nombre{
+    margin: 35px;
 }
 
 nav{
@@ -73,5 +106,119 @@ section{
     margin: 50px;
     background-color: #181018;
     margin-top: -5%;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: cuadro 10s infinite linear alternate;
 }
+@keyframes cuadro{
+    0%, 20%{
+        background-image: url(./img/banner1.jpg);
+    }
+    25%, 45%{
+        background-image: url(./img/banner2.jpg);
+    }
+    50%, 70%{
+        background-image: url(./img/banner3.jpg);
+    }
+    75%, 100%{
+        background-image: url(./img/banner4.jpg);
+    }
+
+
+}
+.capa{
+    width: auto;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+
+}
+.perfil{
+    z-index: 1;
+    border-radius: 50%;
+    border: 3px solid #0033cc;
+    width: 250px; 
+    height: 250px;
+    margin-top: -5%;
+    background-size: 100%;
+    display: flex;
+    background-size: 100%;
+    background-image: url(./img/perfil.jpg);
+    
+    
+    
+}
+
+.proyectos{
+    display: flex;
+    margin: 35px;
+    
+}
+
+.proyecto1{
+    height: 40%;
+    border-radius: 500px;
+    margin: 35px;
+    border-color: rgb(60, 38, 105);
+    border-style: solid;
+}
+
+.proyecto2{
+    height: 40%;
+    border-radius: 500px;
+    margin: 35px;
+    border-color: rgb(80, 59, 122);
+    border-style: solid;
+}
+
+.titulo-proyecto{
+    margin: 35px;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.navbar a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.navbar a:not(:last-child){
+    margin-right: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #5EE0C2;
+}
+
+.img{
+    width: 3%;
+    height: 40px;
+    display: flex;
+}
+
 

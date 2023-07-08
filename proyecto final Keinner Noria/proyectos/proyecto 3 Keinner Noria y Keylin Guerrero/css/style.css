@@ -1,0 +1,124 @@
+.img1{
+    border-radius: 100px;
+    height: 60px;
+    
+    
+}
+body{
+    background-color: gainsboro;
+}
+.fondo-azul{
+    background-color: aqua;
+    border-style:dotted;
+    border-color: rgb(16, 91, 232);
+    border-radius: 50px;
+}
+.titulo{
+    color:midnightblue;
+    font-family:'Fredoka One','cursive';
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista{
+    margin-left: 0;
+    padding-left: 0;
+    border-style: solid;
+    border-color: aqua;
+    height: 50px;
+    width: 110px;
+    
+     
+
+}
+.historias{
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    margin: 100px;
+    
+}
+
+.historia1{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.historia2{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.historia3{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.historia4{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.historia5{
+    border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.a{
+    position: absolute;
+    top: 150px;
+    left: 6px;
+}
+  
+
+.publicaciones{
+    width: 100%;
+    border:0 solid rgb(109, 109, 109);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align:center;
+    
+    
+       
+}
+.publicacion1{
+    width: 30%;
+    margin: auto;
+}
+.barra{
+    display:flex;
+    justify-content: center;
+}
+.img-logo{
+    width: 140px;
+    
+
+}
+.video{
+    width: 30%;
+    margin: auto;
+}
